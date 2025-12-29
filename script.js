@@ -1,5 +1,5 @@
-const apiKey = "AIzaSyDgRJ46sPisQuqK-iW7_zNFp4LgrrTKV8s";
-const model = "gemini-2.5-flash-preview-05-20";
+const apiKey = "AIzaSyARH_RXBeQDTRhxD1mQ-NKacb844PQpQQo";
+const model = "gemini-2.5-flash";
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
 function getInputs() {

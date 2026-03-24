@@ -1,4 +1,4 @@
-const apiKey = "AIzaSyARH_RXBeQDTRhxD1mQ-NKacb844PQpQQo";
+const apiKey = "AIzaSyC47bhjK7tZOFNLFHxgKua2-HEmoz5ocnY";
 const model = "gemini-2.5-flash";
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
@@ -172,7 +172,7 @@ function displayOutput(jsonString) {
 
   document.querySelectorAll(".copy-btn").forEach((button) => {
     button.addEventListener("click", (e) =>
-      copyToClipboard(e.currentTarget.dataset.caption, e.currentTarget)
+      copyToClipboard(e.currentTarget.dataset.caption, e.currentTarget),
     );
   });
 }
@@ -216,7 +216,7 @@ async function generateCaptions() {
         (response.status >= 400 && response.status < 500)
       ) {
         throw new Error(
-          `API Request failed with status: ${response.status}. Please check your API key and input.`
+          `API Request failed with status: ${response.status}. Please check your API key and input.`,
         );
       }
 
@@ -235,7 +235,7 @@ async function generateCaptions() {
       displayOutput(generatedContentText);
     } else {
       throw new Error(
-        "API returned success, but no generated content was found."
+        "API returned success, but no generated content was found.",
       );
     }
   } catch (error) {

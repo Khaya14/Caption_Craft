@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MfobesTechJournal/Caption_Craft.git"
+    "url": "git+https://github.com/Khaya14/Caption_Craft.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/MfobesTechJournal/Caption_Craft/issues"
+    "url": "https://github.com/Khaya14/Caption_Craft/issues"
   },
-  "homepage": "https://github.com/MfobesTechJournal/Caption_Craft#readme",
+  "homepage": "https://github.com/Khaya14/Caption_Craft#readme",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "cors": "^2.8.5",
